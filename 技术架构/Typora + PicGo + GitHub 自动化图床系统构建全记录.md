@@ -163,6 +163,8 @@
 
 - **第三步：推送到云端**。点击顶部的 **Push origin**。此时，你的博文和图片就正式进入了 GitHub 仓库，并在你的 `G1234-cod.github.io`（或仓库页面）可见 。
 
+![image-20260422142601615](https://cdn.jsdelivr.net/gh/G1234-cod/GYX-BlogImages/img/image-20260422142601615.png)
+
 ### 2. CSDN 端发布（流量与社区）
 
 - **第一步：全选复制**。在 Typora 中按 `Ctrl + A` 全选，`Ctrl + C` 复制（由于配置了 PicGo，复制的内容是带网络链接的 Markdown 源码）。
