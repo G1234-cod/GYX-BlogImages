@@ -16,15 +16,13 @@ typora-copy-images-to: upload
 
 - **工程价值**：这种“一文一仓”的模式实现了本地内容的**物理隔离** 。即使你后期有成百上千篇笔记，每个文档的图片都被锁定在自己的沙盒里，互不干扰，极大地方便了备份和局部迁移 。
 
-![image-20260422162143655](https://cdn.jsdelivr.net/gh/G1234-cod/GYX-BlogImages/img/skill/soft/%E8%BF%9B%E9%98%B6%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%9E%84%E5%BB%BA%E5%B7%A5%E4%B8%9A/image-20260422162143655.png)
-
 ------
 
 ## 二、 逻辑侧：基于 YAML 的“公私分流”
 
 对于上传云端的文件及图片，不是所有都会上传的，故需要进行区别 。通过 **YAML 头部命令**，我们可以给每一篇文档装上一个“智能上传开关” 。
 
-![image-20260422162222871](https://cdn.jsdelivr.net/gh/G1234-cod/GYX-BlogImages/img/skill/soft/%E8%BF%9B%E9%98%B6%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%9E%84%E5%BB%BA%E5%B7%A5%E4%B8%9A/image-20260422162222871.png)
+![image-20260422162849085](https://cdn.jsdelivr.net/gh/G1234-cod/GYX-BlogImages/img/skill/soft/%E8%BF%9B%E9%98%B6%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%9E%84%E5%BB%BA%E5%B7%A5%E4%B8%9A/image-20260422162849085.png)
 
 ### 1. 实现“按需上传”的底层逻辑
 
@@ -60,7 +58,7 @@ typora-copy-images-to: upload
 
 - **日期归档技巧**：你甚至可以在路径末尾加上占位符（如 `{year}/{month}/`），让系统按时间维度自动创建文件夹 。
 
-![image-20260422162248466](https://cdn.jsdelivr.net/gh/G1234-cod/GYX-BlogImages/img/skill/soft/%E8%BF%9B%E9%98%B6%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%9E%84%E5%BB%BA%E5%B7%A5%E4%B8%9A/image-20260422162248466.png)
+![image-20260422162917100](https://cdn.jsdelivr.net/gh/G1234-cod/GYX-BlogImages/img/skill/soft/%E8%BF%9B%E9%98%B6%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%9E%84%E5%BB%BA%E5%B7%A5%E4%B8%9A/image-20260422162917100.png)
 
 ### 2. 避坑指南：路径命名规范
 
